@@ -4,7 +4,7 @@
     "service": "ide",
     "settings": {"terminal.integrated.shell.linux": "/bin/bash"},
     "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
-    "forwardPorts": [8080],
+    "forwardPorts": [8080,80],
     "extensions": ["ms-python.python",
                    "ms-azuretools.vscode-docker"],
     "runServices": ["ide", "notebook"],
