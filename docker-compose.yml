@@ -28,4 +28,4 @@ services:
     <<: *fastai
     command: /bin/bash
     ports:
-      - "80:80"
+      - "8000:8000"
